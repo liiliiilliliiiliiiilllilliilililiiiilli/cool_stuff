@@ -1,0 +1,15 @@
+# 各种酷炫内容的仓库
+
+[![ru](/README/md/assets/badges/ru.svg)](/README/md/README.ru.md)
+[![en](/README/md/assets/badges/en.svg)](/README/md/README.en.md)
+[![zh](/README/md/assets/badges/zh.svg)](/README/md/README.zh.md)
+
+**`/stuff/`** 文件夹包含各种酷炫的项目和想法。快来看看吧！
+
+## 内容
+
+- **`/stuff/math/nth_prime_number/`** - 计算第 n 个素数的公式，由一些基本的数学函数组成。它确实有效（！），但计算量相当大。
+
+- 目前就这些！
+
+你很可能是通过和我聊天才找到这个代码库的——如果是这样，我希望你找到了你想要的东西！如果你是偶然发现的，这里有个小提示：☘️
