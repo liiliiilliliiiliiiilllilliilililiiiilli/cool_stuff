@@ -4,11 +4,11 @@
 [![en](/README/md/assets/badges/en.svg)](/README/md/README.en.md)
 [![zh](/README/md/assets/badges/zh.svg)](/README/md/README.zh.md)
 
-The `cool_things/` folder contains all sorts of cool projects and ideas. Check it out!
+The **`cool_things/`** folder contains all sorts of cool projects and ideas. Check it out!
 
 ## What's here
 
-- `../math/nth_prime_number.py` - The formula for the nth prime number, composed of elementary mathematical functions. It works (!), but it's quite computationally intensive.
+- **`../math/nth_prime_number.py`** - The formula for the nth prime number, composed of elementary mathematical functions. It works (!), but it's quite computationally intensive.
 
 That's all for now!
 

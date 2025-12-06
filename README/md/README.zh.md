@@ -4,11 +4,11 @@
 [![en](/README/md/assets/badges/en.svg)](/README/md/README.en.md)
 [![zh](/README/md/assets/badges/zh.svg)](/README/md/README.zh.md)
 
-`cool_things/` 文件夹包含各种酷炫的项目和想法。快来看看吧！
+**`cool_things/`** 文件夹包含各种酷炫的项目和想法。快来看看吧！
 
 ## 内容
 
-- `../math/nth_prime_number.py` - 计算第 n 个素数的公式，由一些基本的数学函数组成。它确实有效（！），但计算量相当大。
+- **`../math/nth_prime_number.py`** - 计算第 n 个素数的公式，由一些基本的数学函数组成。它确实有效（！），但计算量相当大。
 
 - 目前就这些！
 
