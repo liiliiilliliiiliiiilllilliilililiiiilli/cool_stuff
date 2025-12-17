@@ -5,11 +5,12 @@
 # Здесь находится функция n-ого простого числа (далее "P" функция).
 # Я представил P функцию в следующих форматах: чистая математическая нотация, функция в системе Wolfram Mathematica, а также Python функция.
 # Все предложенные представления P - отображение одного и того же ресурсоемкого, но рабочего алгоритма, изначально реализованного в чистой математике (поэтому он такой тяжелый).
+# В ./p_function_on_paper.jpg фото функции на бумаге в чистом математическом виде.
 # В ./draft.txt находятся черновичные данные. Это задел на будущие обновления репозитория.
 
 
 
-# - - - - - - - - - -     ∑
+# - - - - - - - - - -
 
 # Чистая математика:
 
@@ -51,7 +52,8 @@ def P (n):  # Хорошо работает для n = 1, 2, 3, 4, 5, 6. При 
     pi = math.pi
 
     nth_prime_number = 2*(Abs(Abs(n-1)-0.5)-Abs(n-1)+0.5)+3*(Abs(Abs(n-2)-0.5)-Abs(n-2)+0.5)+sum(a*(Abs(Abs(sum(Abs(Abs(sum(Abs(1-2*b*(0.25-ArcSin(Sin(pi/2+2*pi*b/c))/(2*pi)))+1-2*b*(0.25-ArcSin(Sin(pi/2+2*pi*b/c))/(2*pi)) for c in range (2, b-1+1))/2)-0.5)-Abs(sum(Abs(1-2*b*(0.25-ArcSin(Sin(pi/2+2*pi*b/c))/(2*pi)))+1-2*b*(0.25-ArcSin(Sin(pi/2+2*pi*b/c))/(2*pi)) for c in range (2, b-1+1))/2)+0.5 for b in range (3, a+1))+1-n)-0.5)-Abs(sum(Abs(Abs(sum(Abs(1-2*b*(0.25-ArcSin(Sin(pi/2+2*pi*b/c))/(2*pi)))+1-2*b*(0.25-ArcSin(Sin(pi/2+2*pi*b/c))/(2*pi)) for c in range (2, b-1+1))/2)-0.5)-Abs(sum(Abs(1-2*b*(0.25-ArcSin(Sin(pi/2+2*pi*b/c))/(2*pi)))+1-2*b*(0.25-ArcSin(Sin(pi/2+2*pi*b/c))/(2*pi)) for c in range (2, b-1+1))/2)+0.5 for b in range (3, a+1))+1-n)+0.5)*(Abs(Abs(sum(Abs(Abs(sum(Abs(1-2*b*(0.25-ArcSin(Sin(pi/2+2*pi*b/c))/(2*pi)))+1-2*b*(0.25-ArcSin(Sin(pi/2+2*pi*b/c))/(2*pi)) for c in range (2, b-1+1))/2)-0.5)-Abs(sum(Abs(1-2*b*(0.25-ArcSin(Sin(pi/2+2*pi*b/c))/(2*pi)))+1-2*b*(0.25-ArcSin(Sin(pi/2+2*pi*b/c))/(2*pi)) for c in range (2, b-1+1))/2)+0.5 for b in range (3, a-1+1))+1-n+1)-0.5)-Abs(sum(Abs(Abs(sum(Abs(1-2*b*(0.25-ArcSin(Sin(pi/2+2*pi*b/c))/(2*pi)))+1-2*b*(0.25-ArcSin(Sin(pi/2+2*pi*b/c))/(2*pi)) for c in range (2, b-1+1))/2)-0.5)-Abs(sum(Abs(1-2*b*(0.25-ArcSin(Sin(pi/2+2*pi*b/c))/(2*pi)))+1-2*b*(0.25-ArcSin(Sin(pi/2+2*pi*b/c))/(2*pi)) for c in range (2, b-1+1))/2)+0.5 for b in range (3, a-1+1))+1-n+1)+0.5) for a in range (5, 2**(n+2)+1))
+    nth_prime_number = int (nth_prime_number)
 
-    return int (nth_prime_number)
+    return nth_prime_number
 
-print (P (7))  # Вставьте любое натуральное число.
+print (P (1))  # Вставьте любое натуральное число.
